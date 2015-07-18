@@ -1,10 +1,9 @@
 #!/usr/bin/env python2
 # coding=utf-8
 
-# Authors: Santi Villalba <sdvillal@gmail.com>
+# Authors: Floriane Montanari <floriane.montanari@gmail.com>
+#          Santi Villalba <sdvillal@gmail.com>
 # Licence: BSD 3 clause
-
-# TODO: include flo as author
 
 try:
     from setuptools import setup
@@ -20,8 +19,7 @@ setup(
     long_description=open('README.rst').read().replace('|Build Status| |Coverage Status|', ''),
     version=manysources.__version__,
     url='https://github.com/sdvillal/whatami',
-    author='Santi Villalba',
-    author_email='sdvillal@gmail.com',
+    author='Floriane Montanari <floriane.montanari@gmail.com>, Santi Villalba <sdvillal@gmail.com>',
     classifiers=[
         'Intended Audience :: Science/Research',
         'Intended Audience :: Developers',
