@@ -1,0 +1,25 @@
+MLSMR & download:
+  https://mlsmr.evotec.com/MLSMR_HomePage/project.html
+  https://mlsmr.evotec.com/MLSMR_HomePage/informatics.html
+
+We then will use the activities provided in this article:
+  http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0118324
+
+This is how they processed the data:
+--------------------------------------------------------------
+Structural data for molecules annotated for hERG block used
+to develop binary classifiers by Robinson, et al. [10],
+and Doddareddy, et al. [4] were obtained from the original publications.
+The structure files for the MLSMR collection of 306,985 compounds screened
+in high-throughput format [37] were obtained from the PubChem database.
+Each collection was computationally filtered for solvent fragments,
+charge and stereochemistry standardized, and both canonical SMILES strings
+and molecular fingerprints were calculated using Pipeline Pilot v 6.1.5
+(Scitegic, Inc. Accelrys). Additional molecular descriptors used to train
+the Winnow model and display the chemical space of uncharged hERG blockers
+were computed using the JChem (ChemAxon) cxcalc plugin.
+--------------------------------------------------------------
+
+We will just download these compunds for which activities are provided
+We will use the smiles provided by pubchem (the goal is not to be serious about prepro)
+One can download also sdfs, inchis, (+ conformers...) using PUG API or the PubChem web
